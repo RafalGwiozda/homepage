@@ -1,0 +1,31 @@
+body {
+    background: #fefefe;
+}
+.mainHeader {
+    color: tomato;
+    font-size: 48px;
+}
+.sectionHeader {
+    color: #1460aa;
+    font-size: 32px;
+}
+.diaryHeader {
+    color: #8a098f;
+    font-size: 32px;
+}
+.paragraph {
+    color: rgb(255, 0, 0);
+}
+.dziennik {
+    background: yellow;
+}
+.personalSection{
+    background: tomato;
+}
+.link {
+color: rgb(17, 0, 252);
+}
+footer {
+    color: rgb(211, 211, 211);
+    background: rgb(85, 85, 85);
+}
