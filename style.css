@@ -1,27 +1,56 @@
 body {
     background: rgb(219, 251, 253);
 }
+
 .mainHeader {
     color: #093A3E;
+    margin-bottom: 40px;
 }
+
 .sectionHeader, .diaryHeader {
     color: #57737A;
 }
+
 .paragraph {
     color: #040F0F;
+    padding-left: 16px;
 }
-.dziennik {
-  
+
+.dziennik {}
+
+.about {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
 }
-.personalSection{
- 
-}
+
 .link {
-color: #57737A;
+    color: #57737A;
 }
-footer {
-    color: #040F0F;
-}
+
 .weekH3 {
-color: #3AAFB9;
+    color: #3AAFB9;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    border-bottom: #57737A dashed 4px;
+    margin: 20px auto;
+}
+
+.footer {
+    color: #040F0F;
+    width: 100%;
+    max-width: 700px;
+    border-bottom: #57737A dashed 4px;
+    margin: 20px auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border:10px solid red ;
+    margin: 10px;
 }
