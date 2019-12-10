@@ -10,24 +10,29 @@
 </head>
 
 <body>
-	<header>
-		<a class="link" href="index.html">Strona główna</a>
-		<a class="link" href="podstrona.html">Podstrona</a>
+	<header  class="navigation">
+		<a class="navigation__link" href="index.html">Strona główna</a>
+		<a class="navigation__link" href="podstrona.html">Podstrona</a>
 	</header>
-	<main class="main">
+	<main id="top" class="main">
 		<header>
-			<h1 class="mainHeader">Rafał Gwiozda - Strona domowa</h1>
+			<h1 class="mainHeader" id="top">Rafał Gwiozda - Strona domowa</h1>
 		</header>
 		<section class="about">
-			<div class="box">Co ten frontend</div>
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p class="paragraph">
+			<!-- <div class="box">Test</div> -->
+			<!-- <div class="boxTest">Co ten frontend</div> -->
+<img src="js.jpg" alt="javascript" class="about__picture"/>
+			<h2 class="about__header">Kim jestem?</h2>
+			<p class="about__paragraph">
 				Mam na imię Rafał, jestem magazynierem, który chce się przebranżowić na frontend developera. Mam
 				żonę i dwójkę dzieci. Programistą pragnę zostać z pasji, tą decyzję podjąłem tuż po moim ślubie. Na tę
 				zmianę miało wpływ kilka czynników, nie będę o nich pisał poprostu nie raz w życiu zdarza się nam dojśc
 				do jakiegoś momentu i albo sie zatrzymy i podejmiemy decyzję że coś zrobimy albo nie zrobimy nic.
 				<br>
-				<a href="#dziennik">Przejdż do dziennika</a>
+				<a class="about__link" href="#dziennik">Przejdż do dziennika</a>
+			</p>
+			<p class="about__paragraph about__paragraph--color">
+				testujemu modifikator.
 			</p>
 		</section>
 		<section class="dziennik" id="dziennik">
@@ -79,6 +84,7 @@
 			</section>
 	</main>
 	<footer class="footer">
+			<a href="#top" class="top">Na górę</a>
 		Strona domowa Rafała Gwiozdy wszelkie prawa zastrzeżone
 	</footer>
 	<script src="main.js"></script>
